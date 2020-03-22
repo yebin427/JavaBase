@@ -1,22 +1,22 @@
 package com.xuetang9.javabase.project.boodemo_v1;
 /**
- * Ä£ÄâµÄÊı¾İ²Ö¿â
- * @author ÀÏ¾ÅÑ§ÌÃ¡¤½ÑÍ·
+ * æ¨¡æ‹Ÿçš„æ•°æ®ä»“åº“
+ * @author è€ä¹å­¦å ‚Â·çª–å¤´
  * @version 1.0
- * @date 2017Äê8ÔÂ22ÈÕ ÉÏÎç11:22:07
- * @copyright ÀÏ¾ÅÑ§ÌÃ
+ * @date 2017å¹´8æœˆ22æ—¥ ä¸Šåˆ11:22:07
+ * @copyright è€ä¹å­¦å ‚
  * @remarks TODO
  *
  */
 public class Datas {
-	/** ÓÃÀ´±£´æËùÓĞÍ¼ÊéĞÅÏ¢µÄÊı×é - ¿ÉÒÔÀí½â³ÉÍ¼ÊéµÄ²Ö¿â */
+	/** ç”¨æ¥ä¿å­˜æ‰€æœ‰å›¾ä¹¦ä¿¡æ¯çš„æ•°ç»„ - å¯ä»¥ç†è§£æˆå›¾ä¹¦çš„ä»“åº“ */
 	public static Book[] BookStore = new Book[999];
 	
-	//Ê¹ÓÃ¾²Ì¬¿éÎªÍ¼Êé²Ö¿âÊı×éÌí¼ÓÊé¼®ĞÅÏ¢£¬ÒÔ±ã²âÊÔ
+	//ä½¿ç”¨é™æ€å—ä¸ºå›¾ä¹¦ä»“åº“æ•°ç»„æ·»åŠ ä¹¦ç±ä¿¡æ¯ï¼Œä»¥ä¾¿æµ‹è¯•
 	static{
 		Book book1 = new Book();
 		book1.setBookId("1000");
-		book1.setBookName("ÀÏ¾Å¾ıÍâ´«1");
+		book1.setBookName("è€ä¹å›å¤–ä¼ 1");
 		book1.setIsbn("100-101");
 		book1.setCount(10);
 		book1.setPrice(99.9);
@@ -24,7 +24,7 @@ public class Datas {
 		
 		Book book5 = new Book();
 		book5.setBookId("1004");
-		book5.setBookName("ÀÏ¾Å¾ıÍâ´«5");
+		book5.setBookName("è€ä¹å›å¤–ä¼ 5");
 		book5.setIsbn("100-105");
 		book5.setCount(10);
 		book5.setPrice(99.9);
@@ -32,7 +32,7 @@ public class Datas {
 		
 		Book book2 = new Book();
 		book2.setBookId("1001");
-		book2.setBookName("ÀÏ¾Å¾ıÍâ´«2");
+		book2.setBookName("è€ä¹å›å¤–ä¼ 2");
 		book2.setIsbn("100-102");
 		book2.setCount(10);
 		book2.setPrice(99.9);
@@ -40,7 +40,7 @@ public class Datas {
 		
 		Book book3 = new Book();
 		book3.setBookId("1002");
-		book3.setBookName("ÀÏ¾Å¾ıÍâ´«3");
+		book3.setBookName("è€ä¹å›å¤–ä¼ 3");
 		book3.setIsbn("100-103");
 		book3.setCount(10);
 		book3.setPrice(99.9);
@@ -48,7 +48,7 @@ public class Datas {
 		
 		Book book4 = new Book();
 		book4.setBookId("1003");
-		book4.setBookName("ÀÏ¾Å¾ıÍâ´«4");
+		book4.setBookName("è€ä¹å›å¤–ä¼ 4");
 		book4.setIsbn("100-103");
 		book4.setCount(10);
 		book4.setPrice(99.9);
@@ -56,6 +56,6 @@ public class Datas {
 		
 		
 	}
-	
+	haha
 	
 }
